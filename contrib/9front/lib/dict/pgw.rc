@@ -1,6 +1,0 @@
-#!/bin/rc
-# Project Gutenberg dictionary
-9fs sources
-cd /lib/dict
-bunzip2 < /n/sources/extra/pgw.tar.bz2 | tar x
-

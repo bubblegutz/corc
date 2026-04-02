@@ -1,4 +1,0 @@
-#!/bin/rc
-~ $#* 0 || ps | sed -n '/^'$user' .*Stopped.* '$1'$/s%[^ ]*  *%~>/proc/%
-s%  *.*%/ctl%
-s%~%echo start%p'

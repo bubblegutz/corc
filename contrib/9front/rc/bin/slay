@@ -1,7 +1,0 @@
-#!/bin/rc
-rfork e
-for(i){
-	ps | sed -n '/^'$user' .* '$i'$/s%[^ ]*  *%~>/proc/%
-	s%  *.* (.*)%/ctl} # \1%
-	s%~%@{echo kill%p'
-}
