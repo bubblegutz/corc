@@ -1,0 +1,8 @@
+</$objtype/mkfile
+
+TARG=example
+OFILES=example.$O
+
+default:V: all
+
+</sys/src/cmd/mkone

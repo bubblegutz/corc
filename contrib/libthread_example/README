@@ -1,0 +1,4 @@
+A small example demonstrating how to use `thread(2)` in Plan 9.  It
+spawns a few processes and waits for them to finish executing.  The
+code is documented, feel free to reuse and adjust to your own needs,
+this is public domain.
